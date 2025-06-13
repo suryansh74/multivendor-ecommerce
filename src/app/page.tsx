@@ -1,3 +1,4 @@
+import { ModeToggle } from "@/components/shared/toggle-theme";
 import { Button } from "@/components/ui/button";
 import { Roboto_Flex } from "next/font/google";
 
@@ -12,6 +13,7 @@ export default function Home() {
     <div className={`text-lg ${bokerFont.className}`}>
       <p className="">hello world</p>
       <Button variant={"default"}>Click Me</Button>
+      <ModeToggle/>
     </div>
   );
 }
